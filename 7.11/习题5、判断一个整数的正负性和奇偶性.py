@@ -15,7 +15,7 @@
 num=int(input('请输入一个整数:'))
 #print(num+2)
 if num>0:
-    print('你输入的这个数'.num,'是整数')
+    print('你输入的这个数',num,'是整数')
 elif num<0:
     print('你输入的这个数',num,'是负数')
 else:
