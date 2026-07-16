@@ -1,7 +1,9 @@
 #10个裁判给一个选手打分
 import random 
+
 num_list=[] #一个选手的分数
 columns=10 #10个裁判
+
 for j in range(columns):
     num=random.randint(0,10) #随机生成0-10之间的一个整数
     num_list.append(num) #添加到选手列表中
