@@ -1,9 +1,9 @@
 from aip import AipOcr
 
 """ 你的 APPID AK SK """
-APP_ID = '26236197'
-API_KEY = 'NntwdHo4GZMIckCVsi3Io6LQ'
-SECRET_KEY = 'Z5VaoLRbwyfGa1LZWVwwywf0AFmjKFGd'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
@@ -50,9 +50,9 @@ from aip import AipSpeech
 import os
 
 """ 你的 APPID AK SK """
-APP_ID = '11437531'
-API_KEY = 'UX8G6WKs0qAtlhgBC1nLylsq'
-SECRET_KEY = 'pntVHwrfcwASqEQOAYBD23LcCAv9oGaT'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client1 = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
