@@ -1,3 +1,4 @@
+
 from ultralytics import YOLO
 result=YOLO("yolov8n.pt").predict(source='0',show=True)
 
@@ -34,7 +35,7 @@ client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 # ================= 2. 初始化 YOLO 和摄像头 =================
 model = YOLO("yolov8n.pt")  # 加载模型
-cap = cv2.VideoCapture(0)   # 打开默认摄像头（如果打不开，尝试把 0 改成 1）
+cap = cv2.VideoCapture(0)   # 打开默认摄像头（如果打不开，尝试把 0 改成 1)
 
 if not cap.isOpened():
     print("错误：无法打开摄像头！请检查电脑摄像头是否被占用或禁用。")
@@ -42,7 +43,7 @@ if not cap.isOpened():
 
 frame_count = 0  # 帧数计数器
 ocr_text = ""    # 存储上次识别的 OCR 结果
-paused = False   # 暂停状态标志（True为暂停，False为运行）
+paused = False   # 暂停状态标志(True为暂停,False为运行)
 annotated_frame = None  # 用于保持当前要显示的画面
 
 print("开始视频流检测...")
