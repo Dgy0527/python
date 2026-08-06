@@ -40,8 +40,8 @@ while True:
         break
     except ValueError:
         print('输入错误：请输入一个有效的整数！')
-
 print('低于小新工资的有:')
+
 for n in salaries:
     if n < x:
         print(str(n) + '元')
